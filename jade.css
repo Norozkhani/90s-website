@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(88, 172, 241);
+    margin: auto;
+    text-align: center;
+    
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 600px;
+}
+
+button {
+    background-image: url("disco.gif");
+}

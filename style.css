@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightpink;
+  background-image: url("glitter.gif");
+  text-align: center;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  font-size: 16px;
+}
+
+.main-header {
+  color: rgb(107, 41, 74);
+  font-size: 6rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: auto;
+  background-color: rgb(235, 195, 248);
+  border: 10px solid hotpink;
+  animation: blinking 3s infinite;
+  background-image: url("sparkly.gif");
+  background-position: center;
+  background-size: auto;
+}
+@keyframes blinking {
+  0% {
+    color: rgb(161, 74, 128);
+  }
+  47% {
+    color: rgb(191, 100, 208);
+  }
+  62% {
+    color: rgb(242, 141, 197);
+  }
+  97% {
+    color: rgb(198, 104, 242);
+  }
+  100% {
+    color: rgb(237, 61, 178);
+  }
+}
+.facts {
+  background-color: rgb(235, 195, 248);
+  max-width: 620px;
+  border: 10px solid hotpink;
+  position: center;
+  margin: auto;
+  background-image: url("wings.gif");
+  background-position: center;
+  margin-top: 5%;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+em {
+  color: rgb(132, 45, 134);
+  animation: blinking 3s infinite;
+}
+
+.facts a:hover {
+  animation: blinking 1s infinite;
+}
