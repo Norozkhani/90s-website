@@ -65,3 +65,7 @@ em {
 .facts a:hover {
   animation: blinking 1s infinite;
 }
+
+.bratz-img {
+  max width: 600px;
+}
