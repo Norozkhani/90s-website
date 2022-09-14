@@ -6,7 +6,7 @@
 
 body {
   background-color: lightpink;
-  background-image: url("glitter.gif");
+  background-image: url("images/glitter.gif");
   text-align: center;
   margin: auto;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
   background-color: rgb(235, 195, 248);
   border: 10px solid hotpink;
   animation: blinking 3s infinite;
-  background-image: url("sparkly.gif");
+  background-image: url("images/sparkly.gif");
   background-position: center;
   background-size: auto;
 }
@@ -50,7 +50,7 @@ body {
   border: 10px solid hotpink;
   position: center;
   margin: auto;
-  background-image: url("wings.gif");
+  background-image: url("images/wings.gif");
   background-position: center;
   margin-top: 5%;
   padding: 2rem;
